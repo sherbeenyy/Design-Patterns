@@ -1,0 +1,16 @@
+The Memento Design Pattern is a behavioral pattern that allows an object to save and restore its previous state without exposing its internal structure.
+
+It involves three components:
+Originator: The object whose state needs to be saved.
+Memento: Stores the internal state of the Originator. It provides the state back without revealing the details.
+Caretaker: Manages the memento but doesn’t interact with the state directly.
+This pattern is useful when you need to implement undo/redo functionality in applications.
+
+In the coding example here I made a checkpoint system that saves the current state of a player and load it
+
+The Game class ( Originator ) is where the checkpoint will be saved 
+
+The checkpoint class ( Memento ) is the state itself that will be saved
+
+The Caretaker class ( Caretaker ) is the responsible for saving and undoing 
+

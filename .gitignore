@@ -1,0 +1,58 @@
+// This file is used to ignore files and directories in the repository
+# Logs
+logs/
+*.log
+*.log.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+
+# C++
+*.obj
+*.o
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# C#
+*.exe
+*.dll
+*.pdb
+*.mdb
+*.user
+*.csproj.user
+*.suo
+*.sln.docstates
+bin/
+obj/
+
+# Environment variables
+.env
+.env.*
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+
+# C#
+*.exe
+*.dll
+*.pdb
+*.mdb
+*.user
+*.csproj.user
+*.suo
+*.sln.docstates
