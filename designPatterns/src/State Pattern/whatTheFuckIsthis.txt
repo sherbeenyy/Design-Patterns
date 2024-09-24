@@ -1,0 +1,12 @@
+The State pattern is a behavioral design pattern that allows an object to change its behavior based on its internal state. Instead of using complex conditionals (like if-else or switch statements) to manage state-specific behavior, the object delegates the behavior to separate state objects, each representing a different state. This makes the code easier to maintain and extend.
+
+In essence, the State pattern encapsulates varying behavior for the same object, based on its current state, making the object appear to change its class dynamically.
+
+
+
+Media Player
+A media player has different states for its functionality:
+
+Playing: The media is currently being played, and pressing the pause button will pause it.
+Paused: The media is paused, and pressing play will resume it.
+Stopped: The media has stopped, and pressing play will start from the beginning. Each state (playing, paused, stopped) has distinct actions when interacting with the player.
